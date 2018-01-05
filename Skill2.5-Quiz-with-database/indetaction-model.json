@@ -1,0 +1,85 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "Choices",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "A",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "B",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "C",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PauseIntent",
+        "samples": [
+          "pause",
+          "pause quiz"
+        ]
+      },
+      {
+        "name": "AMAZON.ResumeIntent",
+        "samples": [
+          "resume",
+          "resume the quiz"
+        ]
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "AnswerIntent",
+        "samples": [
+          "{Choices}",
+          "the answer is {Choices}",
+          "my choice is {Choices}"
+        ],
+        "slots": [
+          {
+            "name": "Choices",
+            "type": "Choices"
+          }
+        ]
+      },
+      {
+        "name": "StartQuizIntent",
+        "samples": [
+          "Start Quiz",
+          "Start a Quiz",
+          "New Quiz",
+          "Start"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "world quiz"
+  }
+}
