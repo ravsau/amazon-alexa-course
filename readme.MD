@@ -6,7 +6,8 @@
 ## Who is this for
 For beginners who want to get started making alexa skills and learn some AWS along the way. But anyone can benefit from this course.
 
-
+## My Youtube channel with lots of AWS Labs
+[Click to go to youtube](https://www.youtube.com/c/sauravsharmacloud)
 
 
 
