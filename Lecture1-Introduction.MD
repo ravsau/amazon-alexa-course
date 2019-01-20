@@ -1,7 +1,7 @@
-1. What is Alexa?\
+#### 1. What is Alexa?
 A. Voice Assistant built by Amazon. Alexa is also a platform where custom voice apps can be developed by developers.
 
-2. What is Echo then?\
+#### 2. What is Echo then?
 A. Echo is name of the hardware device that houses Alexa. Think of Echo as the body and Alexa as the soul. 
 
 Alexa is one of the breakthrough voice assistants that has made voice assistants one of the most buzzing thing in the tech industry. 
